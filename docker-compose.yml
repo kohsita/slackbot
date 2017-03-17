@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  slackbot:
+    image: node:4.4.7
+    container_name: slackbot
+    restart: always
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: node --harmony alpha5.js

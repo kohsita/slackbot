@@ -1,0 +1,13 @@
+{
+  "name": "SlackBot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node alpha5.js --harmony"
+  },
+  "dependencies": {
+    "botkit": "0.5.1",
+    "lodash": "4.17.4",
+    "ncon": "0.1.1"
+  }
+}
